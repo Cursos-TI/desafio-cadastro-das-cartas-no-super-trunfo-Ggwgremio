@@ -6,6 +6,25 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    char codigo[4];       // Código da carta (Ex: A01, B02)
+    int Populacao;        // População da cidade
+    float Área;           // Área da cidade em km²
+    float PIB;            // PIB da cidade em bilhões
+    int PontosTuristicos; // Número de pontos turísticos
+
+    printf(carta->codigo, "%c%02d", estado, numeroCidade);
+
+    printf("Digite a populacao da cidade: ");
+    scanf("%d", &carta->populacao);
+
+    printf("Digite a area da cidade (em km²): ");
+    scanf("%f", &carta->area);
+
+    printf("Digite o PIB da cidade (em bilhões): ");
+    scanf("%f", &carta->pib);
+
+    printf("Digite o numero de pontos turisticos da cidade: ");
+    scanf("%d", &carta->pontosTuristicos);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
