@@ -34,6 +34,22 @@ int main() {
     soma = Populacao + Area + PIB + PontosTuristicos;
     printf("O Super Poder da carta é: %d\n", soma);
 
+    printf("A seguir digite os valores das cartas:\n");
+   
+    printf("Digite o valor da primeira carta: ");
+    scanf("%f", &cartaA);
+
+    printf("Digite o valor da segunda carta: ");
+    scanf("%f", &cartaB);
+
+    
+    if (cartaA > cartaB) {
+        printf("A primeira carta é a vencedora\n");
+    } else {
+        printf("A segunda carta é a vencedora\n");
+    }
+    printf("A seguir digite os valores de densidade populacional\n");
+
     printf("Digite o valor da primeira carta: ");
     scanf("%f", &cartaA);
 
