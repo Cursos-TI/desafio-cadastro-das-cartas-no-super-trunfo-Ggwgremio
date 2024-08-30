@@ -6,8 +6,10 @@ int main() {
     float Area = 1.5;           // Área da cidade em km²
     float PIB = 1.5;            // PIB da cidade em bilhões
     int PontosTuristicos = 1; // Número de pontos turísticos
-    float divisao;
-
+    float divisao, cartaA, cartaB;
+    float densidadePopulacional = 1;
+    int soma;
+    
     printf("Digite o codigo da carta: ");
     scanf("%s", codigo);
 
@@ -28,6 +30,14 @@ int main() {
 
     divisao = (float) PIB / Populacao;
     printf("O PIB per capita é: %.2f\n", divisao);
+
+    soma = Populacao + Area + PIB + PontosTuristicos;
+    printf("O Super Poder da carta é: %d\n", soma);
+
+
+
+
+
 
     return 0;
 
